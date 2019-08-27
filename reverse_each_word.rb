@@ -7,9 +7,3 @@ def reverse_each_word(str)
   return new_arr.join(" ")
 end
 
-def reverse_collect_word(str)
-  str_arr = str.split(" ")
-  str_arr.collect do |char| 
-    char.reverse
-  end
-end
