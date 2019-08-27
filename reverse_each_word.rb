@@ -9,5 +9,5 @@ end
 
 def reverse_collect_word(str)
   str_arr = str.split(" ")
-  str_arr.collect { |char| char.reverse}
+  str_arr.collect { |char| char.reverse }
 end
